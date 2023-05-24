@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * { 
     box-sizing: border-box;
     margin: 0;
@@ -9,72 +11,66 @@
 }
 
 body {
-    width: 100vw;
     height: 100vh;
-    
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    width: 100vw;
 
-    background-image: url(/inicial/assets/imgs/Prancheta\ 1.png);
-    background-position: right;
-
-
+    background-image: url(assets/imgs/background\ image.png);
+    background-clip: border-box;
+    background-repeat: no-repeat;
 }
 
-.container {
-    width: 350px;
-    height: 80vh;
-    margin-left: 160px;
-    display: flex;
-    flex-direction: column;
-}
+h1 {
+    width: 388px;
+    height: 424px;
 
-.container h1 {
-    font-weight: 400;
-    font-size: 100px;
-    line-height: normal;
-
-    margin-bottom: 100px ;
+    font-weight: 100;
+    font-size: 128px;
+    line-height: 153.6px;
     color: #fff;
+
+    position: absolute;
+    top: 164px;
+    left: 130px;
 }
 
-.container a, button {
-    width: 200px;
-    height: 60px;
-    text-align: center;
-}
-button {
-    border: none;
-    border-radius: 30px;
-    text-align: center;
-    
-    font-size: 30px;
-    color: #00AAED;
-}
+a button {
+    width: 182px;
+    height: 58px;
 
+    position: absolute;
+    top: 779px;
+    left: 151px;
+
+    border-style: none;
+    border-radius: 4px;
+    background-color: #fff;
+
+    font-weight: 100;
+    font-size: 32px;
+    color: #008F8C;
+}
 
 button:hover {
-    color: #0089ED;
     cursor: pointer;
+    color: #015958;
 }
 
 button:active {
+    color: #023535;
     box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
 .link-cadastro {
-    margin-top: 10px;
-    width: 182px;
-    text-align: center;
+    position: absolute;
+    top: 845px;
+    left: 172px;
+
     text-decoration: none;
     font-size: 20px;
-
-    color: #fff;
     font-weight: 100;
+    color: #fff;
 }
 
 .link-cadastro:hover {
-    cursor: pointer;
-    text-decoration: underline;
+    text-decoration: underline 1px solid #fff;
 }
