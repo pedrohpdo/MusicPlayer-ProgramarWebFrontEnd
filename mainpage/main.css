@@ -126,7 +126,6 @@ input:focus-visible {
     height: 100px;
 
     background-color: #023535;
-
     border-radius: 4px 4px 0 0;
     display: flex;
     align-items: center;
@@ -136,8 +135,6 @@ input:focus-visible {
 .player {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
 }
 
 button {
@@ -149,9 +146,35 @@ button {
 progress {
     width: 550px;
     height: 8px;
+    margin: 0 70px;
 }
 
-.prev, .next {
-    width: 35px;
-    height: 26px;
+.left-controls, .right-controls {
+    border-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.left-controls {
+    width: 200px;
+    height: 57px;
+    
+    margin-left: 185px;
+    justify-content: space-around;
+}
+
+.right-controls{
+    justify-content: space-around;
+}
+
+#pause {
+    display: none;
+}
+
+.right-controls {
+    width: 320px;
+}
+
+#up-player {
+    margin-left: 106px;
 }
