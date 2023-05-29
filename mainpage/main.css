@@ -67,6 +67,8 @@ label, input {
     height: 32px;
     border-radius: 4px;
     background-color: #002424;
+
+    margin-right: 30px;
 }
 
 label {
@@ -103,6 +105,19 @@ input:focus-visible {
 }
 
 .playlists, .top50world {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.playlists {
+    background-image: url(assets/imgs/Group\ 4.png);
+    background-size: cover;
+}
+
+.top50brasil {
+    background-image: url(assets/imgs/Group\ 3.png);
+    background-size: cover;
 
 }
 
@@ -116,4 +131,27 @@ input:focus-visible {
     display: flex;
     align-items: center;
 
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+button {
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+progress {
+    width: 550px;
+    height: 8px;
+}
+
+.prev, .next {
+    width: 35px;
+    height: 26px;
 }
