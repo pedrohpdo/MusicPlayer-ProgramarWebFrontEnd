@@ -9,3 +9,78 @@
     font-family: "Inter";
     color: #fff ;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    background-image: url(assets/background/wppflare\ \(1\).jpg);
+    background-size: cover;
+}
+
+button {
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+}  
+
+progress {
+    width: 80%;
+    height: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.controls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#song-name, #album-name { 
+    font-family: "Bebas Neue";
+}
+
+#song-name {
+    font-size: 32px;
+    font-weight: 400;
+}
+#album-name {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.center-controls {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pause {
+    display: none;
+}
+
+.right-controls { 
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#favorite, #list {
+    margin-right: 20px;
+}
+
+#repeat {
+    margin-right: auto;   
+}

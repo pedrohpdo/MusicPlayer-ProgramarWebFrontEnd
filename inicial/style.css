@@ -7,72 +7,74 @@
     margin: 0;
     padding: 0;
     font-family: "Bebas Neue", Helvetica, Arial;
+    text-decoration: none;
 }
 
 body {
     height: 100vh;
     width: 100vw;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container {
-    width: 1440px;
-    height: 1024px;
-    background-image: url(assets/imgs/background\ image.png);
-
-    display: flex;
     flex-direction: column;
+
+    
+    background: rgb(6,84,84);
+    background: linear-gradient(48deg, rgba(6,84,84,1) 0%, rgba(11,134,134,1) 56%, rgba(3,64,64,1) 100%);
+
+    background-image: url(/inicial/assets/imgs/background\ image.png);
+    background-size: cover;
+    background-position: bottom;
 }
+
 
 h1 {
-    width: 388px;
-    height: 424px;
+    width: max-content;
+    height: max-content;
 
     font-weight: 100;
     font-size: 128px;
     line-height: 153.6px;
     color: #fff;
 
-    margin-top: 164px;
-    margin-left: 130px;
-    margin-bottom: 191px;
-
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
-a button {
+.button {
     width: 182px;
     height: 58px;
-
-    margin-left: 151px;
-    margin-bottom: 8px;
+    
     border-style: none;
-    border-radius: 4px;
     background-color: #fff;
-
+    border-radius: 4px;
+    
     font-weight: 100;
     font-size: 32px;
     color: #008F8C;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 1%;
 }
 
-button:hover {
+.button:hover {
     cursor: pointer;
     color: #015958;
 }
 
-button:active {
+.button:active {
     color: #023535;
     box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
 .link-cadastro {
-    margin-left: 172px;
-
     text-decoration: none;
     font-size: 20px;
     font-weight: 100;
     color: #fff;
+    margin-left: 11.3%;
 }
 
 .link-cadastro:hover {

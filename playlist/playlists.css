@@ -85,9 +85,9 @@ label {
 }
 
 input {
-    width: 80%;
     border: none;
-    color: #ffffff;
+    width: 70%;
+    color: #008F8C;
 }
 
 input:focus-visible {
@@ -107,7 +107,7 @@ input:focus-visible {
     font-family: "Bebas Neue";
     font-size: 96px;
 
-    margin-bottom: 46px;
+    margin-bottom: 32px;
 }
 
 .cards {
