@@ -119,17 +119,49 @@ input:focus-visible {
     overflow-y: scroll;
 }
 
-::-webkit-scrollbar { 
-    display: none;
-}
-
-.card1 {
+.cards div {
     width: 287px;
     height: 180px;
     background-color: white;
     margin: 10px 20px;
     border-radius: 4px;
+
+    background-size: cover;
 }
+
+::-webkit-scrollbar { 
+    display: none;
+}
+
+.card1 {
+    background-image: url(assets/cards-background/bg\ \(1\).jpg);
+}
+
+.card2 {
+    background-image: url(assets/cards-background/bg\ \(2\).jpg);
+}
+.card3 {
+    background-image: url(assets/cards-background/bg\ \(3\).jpg);
+}
+
+.card4 {
+    background-image: url(assets/cards-background/bg\ \(4\).jpg);
+}
+
+.card5 {
+    background-image: url(assets/cards-background/bg\ \(5\).jpg);
+}
+.card6 {
+    background-image: url(assets/cards-background/bg\ \(6\).jpg);
+}
+.card7 {
+    background-image: url(assets/cards-background/bg\ \(7\).jpg);
+}
+.card8 {
+    background-image: url(assets/cards-background/bg\ \(8\).jpg);
+}
+
+
 
 .media-player {
     width: 100vw;
