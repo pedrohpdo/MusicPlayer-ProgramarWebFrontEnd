@@ -109,6 +109,25 @@ input:focus-visible {
     align-items: flex-end;
     justify-content: center;
 }
+.playlists, .top50world, .top50brasil, .radio {
+    background-size: cover;
+}
+
+.playlists {
+    background-image: url(assets/img-cards/Frame\ 1.jpg);
+}
+
+.top50brasil {
+    background-image: url(assets/img-cards/Frame\ 2.jpg);
+}
+
+.top50world {
+    background-image: url(assets/img-cards/Frame\ 3.jpg);
+}
+
+.radio {
+    background-image: url(assets/img-cards/Frame\ 4.jpg);
+}
 
 .media-player {
     width: 100vw;
